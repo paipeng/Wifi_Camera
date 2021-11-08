@@ -36,6 +36,7 @@ public class                StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
         button = findViewById(R.id.button1);
+        button.setVisibility(View.VISIBLE);
         DispImageView = findViewById(R.id.DispImageView);
         button.setText("Play");
         button.setOnClickListener(new View.OnClickListener() {
